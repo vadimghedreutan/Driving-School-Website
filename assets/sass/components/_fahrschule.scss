@@ -1,0 +1,20 @@
+.feature-image {
+  margin-bottom: 4rem;
+  background-size: cover;
+  min-height: 150px;
+}
+
+.team-one {
+  padding-bottom: 2rem;
+
+  h2 {
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+  }
+
+  &__image {
+    flex: 1 1 0;
+    margin-right: .2rem;
+    margin-bottom: .2rem;
+  }
+}

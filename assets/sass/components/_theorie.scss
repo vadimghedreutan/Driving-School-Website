@@ -1,0 +1,31 @@
+.plan-one {
+  padding-bottom: 2rem;
+
+  h2 {
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+  }
+
+  &__table {
+    flex: 1 1 0;
+    margin-right: .4rem;
+  }
+}
+
+.list-group-item {
+  background-color: var(--main-bg-color);
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.plan-image {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.list-group-item.active {
+  border-color: var(--white);
+  background-color: var(--secondary-color);
+  color: var(--main-bg-color);
+}

@@ -1,0 +1,32 @@
+.partner {
+  padding-bottom: 2rem;
+
+  h2 {
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+  }
+
+  &__image {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
+
+.partner-buro {
+  padding: 3rem 0;
+
+  &__title {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+  }
+
+  &__description {
+    flex: 1 1 0;
+  }
+
+  &__image {
+    flex: 1 1 0;
+  }
+}
